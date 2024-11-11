@@ -1,0 +1,96 @@
+body{
+    font-family: arial;
+}
+/* items part */
+#items{
+    max-width: 80%;
+    margin: auto;
+    width: fit-content;
+}
+
+#items p{
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+}
+#items p:hover{
+    color: white;
+    background-color: black;
+    padding: 8px 8px 8px 8px;
+    transition:1s;
+    border-radius: 20px 0 20px 0;
+    border: red solid;
+}
+
+/* advertise part */
+#add{
+    max-width: 80%;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.left{
+    width: 500px;
+    display: inline-block;
+}
+.right{
+    width:400px;
+    display: inline-block;
+}
+.right img{
+    width: 400px;
+}
+.left p{
+    display: block;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* courses part */
+#courses{
+    max-width: 80%;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.cards{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(238, 7, 7);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* card part */
+#card{
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+}
+.cardOne{
+    width: 300px;
+    display:inline-block;
+    box-sizing: border-box;
+    background-color: rgb(242, 239, 239);
+    padding:0 5px 0 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.cardOne p{
+    display: inline-block;
+}
+.cardOne button{
+    display: block;
+}
+.cardOne p {
+    display: block;
+}
+.heading{
+    font-weight: bold;
+    font-size:20px;
+}
